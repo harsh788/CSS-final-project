@@ -32,6 +32,10 @@ body .header {
     gap: 80px;
 }
 
+.container1 .right2 img{
+    border-radius: 6px;
+}
+
 .left2 {
     max-width: 430px;
     display: flex;
