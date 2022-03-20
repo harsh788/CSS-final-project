@@ -16,6 +16,7 @@ body .header {
 
 .header .right1 {
     font-size: 15px;
+    padding: 10px;
 }
 
 .header .left1 {
@@ -100,8 +101,8 @@ body .header {
 }
 
 .info {
-    max-width: 200px;
     text-align: center;
+    font-weight: bold;
     color: #1F2937;
 }
 
@@ -176,8 +177,13 @@ body .header {
 }
 
 a {
-    color: white;
+    color: white !important;
     text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color:#3882F6 !important;
 }
 
 ul {
